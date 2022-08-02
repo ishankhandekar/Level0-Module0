@@ -22,9 +22,27 @@ if __name__ == '__main__':
 
         #      // 3.  Use an if statement to check if their answer is correct
     if str(output) == "Crane":
-        messagebox.showinfo("you got it correct")
+        messagebox.showinfo("Quiz Game","you got it correct")
+        score+=1
     else:
-        messagebox.showinfo("you got it wrong")
+        messagebox.showinfo("Quiz Game","you got it wrong")
+        score-=1
+    
+    
+    choices1 = ["Adolf Hitler", "Mahatma Ghandi", "Henry Ford", "Charles Lindbergh"]
+  
+    # creating a button box
+    output = choicebox("Who was the first Time Magazine Man of the Year?", "questions", choices1)
+    
+
+        #      // 3.  Use an if statement to check if their answer is correct
+    if str(output) == "Charles Lindbergh":
+        messagebox.showinfo("Quiz Game","you got it correct")
+        score+=1
+    else:
+        messagebox.showinfo("Quiz Game","you got it wrong")
+        score-=1
+    messagebox.showinfo("Questions","Your final score was " + str(score))
         #      // 4.  if the user's answer was correct, add one to their score 
     
         # MAKE MORE QUESTIONS. Ask more questions by repeating the above 

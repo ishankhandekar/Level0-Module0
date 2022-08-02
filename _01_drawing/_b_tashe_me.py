@@ -46,11 +46,11 @@ if __name__ == '__main__':
     #    add the file to the folder with your code
 
     # 2. Call the set_background() function with the image filename inside of the parenthesis
-    set_background('cartoon.png')
+    set_background('C:/Users/Ishan Khandekar/Documents/GitHub/Level0-Module0/_01_drawing/cartoon.png')
 
     # 3. Create a variable called moustache and set it equal to add_moustache('moustache1.gif')
     # moustache = add_moustache('moustache1.gif')
-    #moustache = add_moustache('moustache2.gif')
+    moustache = add_moustache('C:/Users/Ishan Khandekar/Documents/GitHub/Level0-Module0/_01_drawing/moustache2.gif')
     # ===================== DO NOT EDIT THE CODE BELOW ============================
     window.onclick(screen_clicked)
     turtle.done()
