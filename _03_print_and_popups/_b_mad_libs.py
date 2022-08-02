@@ -10,15 +10,17 @@ if __name__ == '__main__':
     # "If you find yourself having to cross a piranha-infested river, here's how to do it..."
     messagebox.showinfo("If you find yourself having to cross a piranha-infested river\n" ", here's how to do it...")
     # Get the player to enter an adjective
-    adjective = simpledialog.askString("Mad Lib", "Enter an adjective")
+    
+   
+    adjective = simpledialog.askstring("Mad Lib", "Enter an adjective")
     # Get the player to enter a type of liquid
-    liquid = simpledialog.askString("Mad Lib", "Enter a type of liquid")
+    liquid = simpledialog.askstring("Mad Lib","Enter a type of liquid")
     # Get the player to enter a body part
-    bodyPart = simpledialog.askString("Mad Lib", "Enter a body part")
+    bodyPart = simpledialog.askstring("Mad Lib", "Enter a body part")
     # Get the player to enter a verb
-    verb = simpledialog.askString("Mad Lib", "Enter a verb")
+    verb = simpledialog.askstring("Mad Lib", "Enter a verb")
     # Get the player to enter a place
-    place = simpledialog.askString("Mad Lib", "Enter a place")
+    place = simpledialog.askstring("Mad Lib", "Enter a place")
     # The story below has has been written as a group of Strings joined
     # together by + signs. The story contains place holders, indicated
     # by [** **] which you need to replace with the values entered by the
